@@ -14,6 +14,7 @@
 		AC5D64541DEDFA9000EA37DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5D64521DEDFA9000EA37DA /* LaunchScreen.storyboard */; };
 		AC5D645F1DEDFA9100EA37DA /* RetrieveContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D645E1DEDFA9100EA37DA /* RetrieveContactsTests.swift */; };
 		AC5D646A1DEDFA9100EA37DA /* RetrieveContactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D64691DEDFA9100EA37DA /* RetrieveContactsUITests.swift */; };
+		AC5D64781DEE085300EA37DA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D64771DEE085300EA37DA /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC5D64651DEDFA9100EA37DA /* RetrieveContactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetrieveContactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5D64691DEDFA9100EA37DA /* RetrieveContactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetrieveContactsUITests.swift; sourceTree = "<group>"; };
 		AC5D646B1DEDFA9100EA37DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5D64771DEE085300EA37DA /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				AC5D64491DEDFA9000EA37DA /* AppDelegate.swift */,
 				AC5D644B1DEDFA9000EA37DA /* ViewController.swift */,
+				AC5D64771DEE085300EA37DA /* Person.swift */,
 				AC5D644D1DEDFA9000EA37DA /* Main.storyboard */,
 				AC5D64501DEDFA9000EA37DA /* Assets.xcassets */,
 				AC5D64521DEDFA9000EA37DA /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5D64781DEE085300EA37DA /* Person.swift in Sources */,
 				AC5D644C1DEDFA9000EA37DA /* ViewController.swift in Sources */,
 				AC5D644A1DEDFA9000EA37DA /* AppDelegate.swift in Sources */,
 			);
